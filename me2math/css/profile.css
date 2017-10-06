@@ -1,0 +1,246 @@
+body {
+	background-image:url("img/sketch.png");
+	color:#000000;
+	font-family:"azote";
+	padding:20px;
+	overflow-y:hidden;
+}
+
+h1, h2, h3 {
+	margin:0;
+	font-family:"vag-rundschrift-d";
+/*	padding:5px;*/
+}
+
+.title {
+	font-size:6em;
+}
+
+h4, h5, h6 {
+	margin:0;
+	font-family:"essones-display";
+	padding:0;
+}
+
+a, a:link, a:hover, a:visited {
+	color:white;
+}
+
+
+.intro {
+	margin-left: 15%;
+	margin-right: 35%;
+	margin-bottom: 25%;
+	margin-top: 10%;
+	width:75%;
+	padding:10px;
+}
+
+/*
+
+	.intro is designed specifically for iPhone6 and works for:
+	-
+	-
+	-
+
+*/
+
+.turn {
+	margin:auto;
+	padding:20px;
+	color:red;
+}
+
+
+.sign-in {
+	margin:8px;
+	border:2px solid #dddddd;
+	border-radius:10px;
+	height:45px;
+	width:175px;
+	background-color:white;
+	color:black;
+	font-size:1.5em;
+}
+
+.facebook {
+	margin:8px;
+	border:1px solid darkblue;
+	border-radius:10px;
+	height:45px;
+	width:175px;
+	background-color:blue;
+	color:white;
+	font-size:1.5em;
+}
+
+
+@media screen and (orientation:portrait) {
+	body {
+		background-color:none;
+	}
+
+	#main {
+		display:none;
+	}
+
+/*	.turn {
+		display:block;
+	}*/
+}
+
+@media screen and (orientation:landscape) {
+	body {
+		background-size:cover;
+	}
+	#main {
+		display:block;
+	}
+	.turn {
+/*		display:none;
+	}*/
+
+}
+
+/*
+
+	profile-games.html
+
+*/
+
+/*.bg-animal {
+	background-image:url(css/img/zoo1.png);
+	z-index:2;
+}*/
+
+header {
+	margin-top: 35vh;
+}
+.gutter-0.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.gutter-0 > [class^="col-"], .gutter-0 > [class^=" col-"]{
+  padding-right: 0;
+  padding-left: 0;
+}
+/* 0px gutter*/
+
+.profile {
+	padding:8px;
+	height:100vh;
+/*	color:blanchedalmond;*/
+}
+
+/*.avi {
+	position:absolute;
+	top:15px;
+	left:15px;
+	height:80px;
+	width:80px;
+	border-radius:40px;
+	border:2px solid white;
+}*/
+
+/*.games {
+	margin-left: 30px;
+}*/
+
+.results {
+/*	margin-right: 10px;*/
+}
+
+/*#star {
+	height:45px;
+	width:100px;
+	margin-bottom: 8px;
+}*/
+
+/*#star > img {
+	display:inline-block;
+}*/
+
+/*#star > img:last-child {
+	margin-top:0;
+	margin-bottom: 10;
+}*/
+
+.count {
+	border-radius:2px;
+	height:45px;
+	width:100px;
+	border:1px solid rgba(255, 210, 63, 1);
+	color:rgba(255, 210, 63, 1);
+	font-size:1.2em;
+	margin-bottom: 5px;
+	padding:10px;
+	color:white;
+}
+
+.match {
+/*	border:1px solid #dddddd;*/
+	border-radius:2px;
+	height:45px;
+	width:100px;
+	border:1px solid magenta;
+	color:magenta;
+	font-size:1.2em;
+	margin-bottom: 5px;
+	padding:10px;
+}
+
+.shapes {
+	border:1px solid rgba(14, 173, 105, 1);
+	border-radius:2px;
+	height:45px;
+	width:100px;
+/*	background-color:magenta;*/
+	color:rgba(14, 173, 105, 1);
+	font-size:1.2em;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+.solve {
+/*	border:1px solid #dddddd;*/
+	border-radius:2px;
+	height:45px;
+	width:100px;
+/*	border:1px solid rgba(67, 87, 173, 1);*/
+	border:1px solid lightblue;
+/*	color:rgba(67, 87, 173, 1);*/
+	color:lightblue;
+	font-size:1.2em;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+.g1, .g2, .g3, .g4 {
+	height:50vh;
+	padding:50px;
+}
+
+.g1 {
+	background-color:rgba(255, 210, 63, 1);
+	color:white;
+}
+
+.g2 {
+/*	background-color:rgba(84, 13, 110, 1);*/
+	background-color:#56CBF9;
+	color:white;
+}
+.g3 {
+	background-color:rgba(14, 173, 105, 1);
+	color:white;
+}
+.g4 {
+/*	background-color:rgba(67, 87, 173, 1);*/
+	background-color:rgba(158,28,206, 1);
+	color:white;
+}
+
+/*$color2: rgba(238, 66, 102, 1);
+$color3: rgba(255, 210, 63, 1);
+$color4: rgba(59, 206, 172, 1);
+$color5: rgba(14, 173, 105, 1);*/

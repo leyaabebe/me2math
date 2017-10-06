@@ -1,0 +1,184 @@
+/*
+
+$color1: rgba(158,28,206, 1);
+$color2: rgba(238, 66, 102, 1);
+$color3: rgba(255, 210, 63, 1);
+$color4: rgba(59, 206, 172, 1);
+$color5: rgba(14, 173, 105, 1);
+
+*/
+
+@font-face {
+    font-family: '2dumbregular';
+    src: url('2dumb-webfont.woff2') format('woff2'),
+         url('2dumb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: '3dumbregular';
+    src: url('3dumb-webfont.woff2') format('woff2'),
+         url('3dumb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AmaticSC-Bold';
+    src: url(AmaticSC-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AmaticSC-Regular';
+    src: url(AmaticSC-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-Bold.ttf';
+    src: url(JosefinSans-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-BoldItalic.ttf';
+    src: url(JosefinSans-BoldItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-Italic.ttf';
+    src: url(JosefinSans-Italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-Light.ttf';
+    src: url(JosefinSans-LightItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-LightItalic.ttf';
+    src: url(JosefinSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-Regular.ttf';
+    src: url(JosefinSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-SemiBold.ttf';
+    src: url(JosefinSans-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-SemiBoldItalic.ttf';
+    src: url(JosefinSans-SemiBoldItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-Thin.ttf';
+    src: url(JosefinSans-Thin.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JosefinSans-ThinItalic.ttf';
+    src: url(JosefinSans-ThinItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* End of Fonts */
+
+body {
+	background-color:#F8F8F8;
+	animation: colorchange 15s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 15s; /* Chrome and Safari */
+    height:100vh;
+    overflow-y:hidden;
+}
+ @keyframes colorchange
+    {
+      0%   {background: lightblue;}
+      25%  {background: yellow;}
+      50%  {background: rgba(238, 66, 102, 1);}
+      75%  {background: green;}
+      100% {background: rgba(158,28,206, 1);}
+    }
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: lightblue;}
+      25%  {background: yellow;}
+      50%  {background: rgba(238, 66, 102, 1);}
+      75%  {background: green;}
+      100% {background: rgba(158,28,206, 1);}
+    }
+
+header {
+	margin-top: 20vh;
+}
+
+footer {
+    margin-bottom: 5px;
+    font-size:.8em;
+}
+
+.dot {
+    width:5vh;
+    height:5vh;
+    border-radius:50%;
+    border:none;
+    background-color:white;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+.title {
+	font-family:'3dumbregular';
+	color:rgba(14, 173, 105, 1);
+	font-size:8em;
+}
+.subtitle {
+	font-family:'AmaticSC-Bold';
+	color: rgba(59, 206, 172, 1);
+	font-size:3em;
+	margin-top: 20px;
+}
+
+.in {
+	background-color:rgba(59, 206, 172, 1);
+	margin:5px;
+	width:10vw;
+}
+
+.reg {
+	margin:5px;
+	width:10vw;
+}
+
+#back {
+	background-color:none;
+}

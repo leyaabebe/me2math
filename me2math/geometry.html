@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Geometry</title>
+
+	<!-- Stylesheets -->
+<!-- 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/vader/jquery-ui.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/geometry.css">
+
+<!-- 	<link rel="stylesheet" href="css/game-style.css"> -->
+
+	<!-- JavaScript -->
+
+    <script src="http://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/geometry.js"></script>
+	
+	<style>
+		body {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	</style>
+
+</head>
+<body>
+	
+	<div class="container-fluid" id="game2">
+		<div class="container center-block">
+			<div class="row center-block">
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+					<a href="http://www.leeeya.com/me2math/profile-games.html"><div class="dot text-center"><span class="glyphicon glyphicon-arrow-left"></span></div></a>
+				</div>
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+					<div class="text-center" id="question"></div>
+					<p class="text-center">Click or tap the shape you think is right.</p>
+					<br><br><br>
+					<ul class="list-inline list-unstyled text-center">
+						<li>
+							<div class="face01"><img src="css/img/animal01.png" id="parallelogram" class="img-responsive" alt="" style="width:250px; height:200px;"></div>
+						</li>
+						<li>
+							<div class="face02"><img src="css/img/animal03.png" id="rectangle" class="img-responsive" alt="" style="width:260px; height:200px;"></div>
+						</li>
+						<li>
+							<div class="face03"><img src="css/img/animal02.png" id="trapezoid" class="img-responsive" alt="" style="width:225px; height:170px;"></div>
+						</li>
+					</ul>
+					<br>
+					<p class="text-center" id="answer"></p><br>
+					<button class="btn btn-md btn-info center-block pull-right" id="next3">NEXT</button>
+					<button class="btn btn-md btn-info center-block pull-right" id="next2">NEXT</button>
+					<button class="btn btn-md btn-info center-block pull-right" id="next">NEXT</button>
+					<button class="btn btn-small btn-default center-block pull-right" id="hint3">show hint</button>
+					<button class="btn btn-small btn-default center-block pull-right" id="hint2">show hint</button>
+					<button class="btn btn-small btn-default center-block pull-right" id="hint">show hint</button>
+					<br><br>
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+		</div>
+	</div>
+
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99078388-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

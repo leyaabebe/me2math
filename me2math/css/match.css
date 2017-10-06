@@ -1,0 +1,126 @@
+/*.color-strip { 
+margin: 3px 3px 3px 0;
+padding:  10%;
+height: 40px; 
+padding: 1px;
+width: 100%;
+display: inline-block;
+border: solid black 1px;
+border-radius: 5px;
+}*/
+
+body {
+	background-color:#56CBF9;
+/*	overflow-y:hidden;*/
+}
+
+.dot {
+	position:absolute;
+	top:5px;
+	left:5px;
+	height:8vh;
+	width:8vh;
+	border-radius:50%;
+	background-color:white;
+	color:magenta;
+	font-size:1.5em;
+	border:none;
+}
+
+.cs1, .cs2, .cs3, .cs4, .cs5, .cs6, .cs7, .cs8, .cs9, .cs10, .cs11, .cs12 {
+	height: 40px;
+	padding: 1px;
+	width: 100%;
+	border-radius:50%;
+}
+
+.cs1 { background-color: #03b209; }
+.cs2 { background-color: #ad8700; }
+.cs3 { background-color: #0a46ad; }
+.cs4 { background-color: #6b1284; }
+.cs5 { background-color: #99360c; }
+.cs6 { background-color: #89052a; }
+.cs7 { background-color: #1a52ad; }
+.cs8 { background-color: #3a2fd8; }
+.cs9 { background-color: #0aad9d; }
+.cs10 { background-color: #e512a2; }
+.cs11 { background-color: #f2230c; }
+.cs12 { background-color: #d14d14; }
+
+
+
+#sortable, #sortable1, #sortable2 { 	
+	list-style-type:none;
+	padding: 0; 
+	width: 100%; 
+	margin-left: .5vw;
+	margin-right: auto;
+	margin-bottom: 5vh;
+	color:white;
+}
+  #sortable li, #sortable1 li, #sortable2 li { 
+  	margin: 2px 2px 2px 0; 
+  	padding: 1px; 
+/*  	float: left; */
+  	width: 45px; 
+  	height: 40px; 
+  	font-size: 1.2em; 
+  	text-align: center; 
+  	background-color: orange; 
+  	/*border: solid 1px;*/
+  	border-radius: 5px; 
+
+  }
+
+.color-block{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.main-color{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 70%;
+	margin-top: 12vh;
+}
+
+.game-buttons{
+	/*text-align: center;
+	display: block;*/
+	margin-top: 20px;
+	/*margin-left: 0px;*/
+	/*height: 50px;*/
+	
+}
+
+#check{
+	
+	margin-top: 50px;
+}
+
+.radio2 , .radio3{
+	margin-top: 10px;
+
+}
+
+.ani-left {
+	position:fixed;
+	top: 0px;
+	left: -25px;
+	height:100vh;
+	z-index:2;
+}
+
+.ani-right {
+	position:fixed;
+	top: 0px;
+	right:-25px;
+	height:100vh;
+	z-index:2;
+}
+
+/*.play{
+	margin-left: auto;
+	margin-right: auto;
+}*/

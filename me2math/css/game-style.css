@@ -1,0 +1,138 @@
+#bgc {
+	background-color:#ffffff;
+}
+
+#img {
+	padding:17px;
+	color:#ffffff;
+	height:400px;
+}
+
+#txt {
+	background-color:#ffffff;
+	color:#EA1744;
+	padding:17px;
+	height:400px;
+	font-family: '3dumbregular';
+	font-size:5em;
+}
+
+#opt {
+	background-color:#EA1744;
+	height:400px;
+	padding:40px;
+}
+
+#title2 {
+    font-family: '3dumbregular';
+}
+
+#game1 {
+	background-color:#4464AD;
+	padding:20px;
+}
+
+#game2 {
+	background-color:#90BE6D;
+	padding:20px;
+}
+
+#game3 {
+	background-color:#EA9010;
+	padding:20px;
+}
+
+#x, #y, #z {
+	height:50px;
+	width:50px;
+	background-color:#D3D4D9;
+	border-radius:10px;
+	display:inline-block;
+	padding:15px;
+	color:#000000;
+}
+
+#pos1, #pos2, #pos3, #pos4, #pos5, #pos6, #pos7, #pos8, #pos9, #pos10, #pos11, #pos12 {
+	height:50px;
+	width:50px;
+	background-color:orange;
+	color:#ffffff;
+	border-radius:10px;
+	display:inline-block;
+	padding:15px;
+}
+
+#question {
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+	margin-top: 50px;
+}
+
+
+/*  Shapes (found code on CSS-Tricks) */
+
+#trapezoid {
+	border-bottom: 125px solid #D3D4D9;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 150px;
+}
+
+#parallelogram {
+	width: 150px;
+	height: 125px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background:#D3D4D9;
+}
+
+
+#rectangle {
+	width: 300px;
+	height: 100px;
+	background: #D3D4D9;
+}
+
+.shape-align {
+	margin-bottom:40px;
+}
+
+
+/*  End Shapes */
+
+#sortable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+}
+
+ #add { 
+ 	list-style-type: none; 
+ 	margin: 0; 
+ 	padding: 0; 
+ 	width: 100%; 
+ }
+ #sortable li { 
+ 	margin: 3px 3px 3px 0; 
+ 	padding: 1px; 
+ 	float: left; 
+ 	width: 100px; 
+ 	height: 90px; 
+ 	font-size: 4em; 
+ 	text-align: center; 
+ 	background-color: orange;
+ }
+  #add li { 
+  	margin: 3px 3px 3px 0; 
+  	padding: 1px; 
+  	float: left; 
+  	width: 100px; 
+  	height: 90px; 
+  	font-size: 4em; 
+  	text-align: center; 
+  	background-color: orange;
+  }
